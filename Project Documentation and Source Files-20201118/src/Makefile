@@ -1,0 +1,2 @@
+all:
+	clang _console.c _cout.c _xtoa.c admin.c hal.c ioreg.c out.c vm.c vmstack.c -o main
