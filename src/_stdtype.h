@@ -18,8 +18,9 @@ typedef int8_t    i8;
 typedef uint16_t  u16;
 typedef int16_t   i16;
 typedef uint32_t  u32;
-typedef int32_t   i32;
+typedef int64_t   i32;  // Change back to uint32_t for Arduino
 typedef float     f32;
+typedef uint64_t  u64;
 
 #ifdef Ptr16bits
 typedef           u16*     ptr;

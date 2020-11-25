@@ -32,7 +32,7 @@
 #define VMName      "Cm Virtual Machine "
 #define AppSuffix   ""
 #define AppName     "cm"
-#define Version     " v0.1.00.1101a "    
+#define Version     " v0.1.00.1101a "
 #define Copyright   "Copyright (c) 2001-2020  Michel de Champlain"
 
 // Banner = VMname AppSuffix Version Copyright
@@ -53,12 +53,12 @@ static void Usage() {
 
 // To get the base RAM address on a memory segment increment.
 static u8* GetBaseAddr(u8* memAddr, u32 memInc) {
-    u32 a = (u32)memAddr + memInc;
-    u32 m = memInc - 1U;
+    u64 a = (u64)memAddr + memInc;
+    u64 m = memInc - 1U;
 //t    VMOut_PutS("Admin: a = "); VMOut_PutX((u32)a); VMOut_PutN();
 //t    VMOut_PutS("Admin: m = "); VMOut_PutX((u32)m); VMOut_PutN();
 
-    u32 r = a & ~m;
+    u64 r = a & ~m;
 //t    VMOut_PutS("Admin: r = "); VMOut_PutX((u32)r); VMOut_PutN();
     return (u8*)r;
 }
@@ -157,15 +157,17 @@ int main(int argc, char* argv[]) {
 
         name = GetFileName(filename);
         ext  = GetFilenameExt(filename);
-        strcpy(filename, name);
+//        strcpy(filename, name);
+
 
 //t        VMOut_PutS("Filename: '%s' Name: '%s' Ext: '%s':\n", filename, name, ext);
 
         if (ext && (strcmp(ext, "exe") == 0)) {  /* 3 characters extension maximum */
             char pb[50];
 
-            strcpy(pb, "");
-            pfile = strcat(pb, filename);
+//            strcpy(pb, "");
+//            pfile = strcat(pb, filename);
+            pfile = filename;
 
 //t            VMOut_PutS("fopen: Filename: '%s'\n", pfile);
 
