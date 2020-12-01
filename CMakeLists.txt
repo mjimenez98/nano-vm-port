@@ -5,6 +5,14 @@ set(CMAKE_C_STANDARD 11)
 
 include_directories(src)
 
+if (MACOS OR WIN32 OR WIN64)
+    add_definitions(-DonTarget=0)
+endif()
+
+if (DDebugBSL)
+    add_definitions(-DDebugBSL=1)
+endif()
+
 add_executable(nano_vm_port
         src/_console.c
         src/_cout.c

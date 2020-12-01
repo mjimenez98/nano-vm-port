@@ -26,6 +26,24 @@ void  Console_Putchar(char  c);
 
 static char  buf[12];                /* to cover max size (12) "i32" (10+sign+null) */
 
+#ifdef onTarget
+
+static void COut_Init() {
+    // Set baud rate
+    UBRR0H = (MYUBRR >> 8);
+    UBRR0L = MYUBRR;
+
+    // Enable receiver and transmitter
+    UCSR0B |= (1 << RXEN0) | (1 << TXEN0);
+
+    // Set frame: 8data, 1 stop bit
+    UCSR0C |= (1 << UCSZ01) | (1 << UCSZ00);
+}
+
+static void COut_PutC(char c) { UDR0 = c; }
+
+#endif
+
 static void COut_PutC(char c)        { Console_Putchar(c); }
 static void COut_PutS(const char* s) { while (*s) Console_Putchar(*s++); }
 static void COut_PutI(i32  i)        { System_itoa(i, buf); COut_PutS(buf); }
