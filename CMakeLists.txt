@@ -5,12 +5,12 @@ set(CMAKE_C_STANDARD 11)
 
 include_directories(src)
 
-if (MACOS OR WIN32 OR WIN64)
+if (onTarget)
     add_definitions(-DonTarget=0)
 endif()
 
-if (DDebugBSL)
-    add_definitions(-DDebugBSL=1)
+if (DebugXtoa)
+    add_definitions(-DDebugXtoa=0)
 endif()
 
 add_executable(nano_vm_port
