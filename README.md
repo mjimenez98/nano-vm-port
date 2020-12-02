@@ -9,7 +9,9 @@ For CLion:
   - Program arguments (optional): Any test unit you want to run
 3. Build/run
 
-## Running Tests
+## Running Tasks
+
+### Tasks 0-1
 
 1. Open your terminal
 2. Run `cd tests/`
