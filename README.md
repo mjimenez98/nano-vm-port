@@ -27,10 +27,27 @@ Now in your project structure you can go to `tests/task_0/output.txt` to find th
 For this we will use two tabs in the terminal.
 
 1. Open your terminal in `~/nano-vm-port`
-2. Run `cd tasks/task_3`
-3. Compile task 3 on the target by running `bash task_3_runner.sh`
-4. Open a second tab in your terminal
-5. Run `ls /dev/tty.*` to know what port your chip is connected to
-6. Run `screen portName` where `portName` is the port being used by your chip. This will allow us to see the serial monitor
+2. Run `ls /dev/tty.*` to know what port your chip is connected to. Copy this value
+3. In your editor, go to `tasks/task_3/task_3_runner.sh` and replace `/dev/tty.*` with the port value you just copied
+4. Back to your terminal, run `cd tasks/task_3`
+5. Compile task 3 on the target by running `bash task_3_runner.sh`
+6. Open a second tab in your terminal
+7. Run `screen portName` where `portName` is the port being used by your chip. It should still be in your clipboard. 
+This will allow us to see the serial monitor
+
+You should now be able to see the output in your terminal
+
+### Task 4
+
+For this we will use two tabs in the terminal.
+
+1. Open your terminal in `~/nano-vm-port`
+2. Run `ls /dev/tty.*` to know what port your chip is connected to. Copy this value
+3. In your editor, go to `tasks/task_4/task_4_runner.sh` and replace `/dev/tty.*` with the port value you just copied
+4. Back to your terminal, run `cd tasks/task_4`
+5. Compile task 4 on the target by running `bash task_4_runner.sh`
+6. Open a second tab in your terminal
+7. Run `screen portName` where `portName` is the port being used by your chip. It should still be in your clipboard. 
+This will allow us to see the serial monitor
 
 You should now be able to see the output in your terminal

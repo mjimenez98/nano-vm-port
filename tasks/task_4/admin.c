@@ -1,6 +1,6 @@
-#include "../src/hal.h"
-#include "../src/out.h"
-#include "vm.h"
+#include "../../src/hal.h"
+#include "../../src/out.h"
+#include "../../src/vm.h"
 
 #define Target      "(ATMega328P)"
 #define VMName      "Cm Virtual Machine "
@@ -21,7 +21,7 @@ static void CopyrightNotice() {
 }
 
 // Print 1 using "pre-configured and loaded" opcode
-u8 mem[] = { 0x91, 0xFF, 0x82, 0x00 };  // Change values; do another operation
+u8 mem[] = { 0x91, 0xFF, 0x82, 0x87, 0x00 };
 
 int main(int argc, char* argv[]) {
     Hal_Init();
