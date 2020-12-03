@@ -5,6 +5,8 @@
 
 #define MemMax 36
 
-u8 hal_Loader(u8  mem[MemMax]);
+int counter;
+
+u8 hal_Loader(u8 mem[MemMax]);
 
 #endif //NANO_VM_PORT_HAL_LOADER_H

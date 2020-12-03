@@ -18,7 +18,7 @@ public class SerialComPort {
         Success = 0x40,
         // Errors during CheckPacket():
         UnknownCmd,
-        InvalidCmd,  
+        InvalidCmd,
 
         // Errors before command execution:
         InvalidAddr,
@@ -196,7 +196,7 @@ public class SerialComPort {
                 }
 
                 if (_run) {
-                    while (true) { 
+                    while (true) {
                         size = _serialPort.Read(buffer, 0, 1);
 
                         if (buffer[0] == Ack) {
@@ -204,7 +204,7 @@ public class SerialComPort {
 //t                            Console.Write("running is done + ack/zero " + string.Format("{0:X2} ", buffer[0]));
                             break;
                         }
-                        Console.Write((char)buffer[0]);
+                        Console.Write((char) buffer[0]);
                     }
                     _run = false;
                     Console.Write("$ ");

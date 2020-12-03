@@ -1,7 +1,25 @@
 #include "hal_Loader.h"
 
-u8 hal_Loader(u8  mem[MemMax]) {
-    // Code to process commands from SerialLoader.exe goes here
+//#include "../../src/out.h"
+#include "bsl_Uart.h"
 
-    return 0x40;
+u8 hal_Loader(u8 mem[MemMax]) {
+    counter = 0;
+
+    while (1) {
+        mem[counter] = readInstruction();
+
+        if (mem[counter] == 0)
+            break;
+        if (counter == 35)
+            return 0xFF;    // Full memory TODO: replace for correct opcode
+
+//        VMOut_PutU(mem[counter]);
+//        VMOut_PutU(counter);
+
+        counter += 1;
+    }
+
+    return 0x40;    // Success
+
 }
