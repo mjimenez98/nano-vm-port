@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port"
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DonTarget=0 -DDebugXtoa=0 -G "CodeBlocks - Unix Makefiles" "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port"
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/cmake-build-debug

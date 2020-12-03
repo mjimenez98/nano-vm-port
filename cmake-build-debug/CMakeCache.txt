@@ -203,6 +203,9 @@ CMAKE_STRIP:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/Xcode
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//No help, variable specified on the command line.
+DebugXtoa:UNINITIALIZED=0
+
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
@@ -211,6 +214,9 @@ nano_vm_port_BINARY_DIR:STATIC=/Users/migueljimenez/Documents/GitHub Projects/na
 
 //Value Computed by CMake
 nano_vm_port_SOURCE_DIR:STATIC=/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port
+
+//No help, variable specified on the command line.
+onTarget:UNINITIALIZED=0
 
 
 ########################

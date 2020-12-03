@@ -5,6 +5,14 @@ set(CMAKE_C_STANDARD 11)
 
 include_directories(src)
 
+if (onTarget)
+    add_definitions(-DonTarget=0)
+endif()
+
+if (DebugXtoa)
+    add_definitions(-DDebugXtoa=0)
+endif()
+
 add_executable(nano_vm_port
         src/_console.c
         src/_cout.c
