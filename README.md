@@ -17,8 +17,8 @@ strings from the target
 ### Tasks 0-1
 
 1. Open your terminal in `~/nano-vm-port`
-2. Run `cd tests/`
-3. Run `bash testRunner.sh`
+2. Run `cd tasks/task_0/`
+3. Run `bash task_0_runner.sh`
 
 Now in your project structure you can go to `tests/task_0/output.txt` to find the output for all task 0 tests.
 

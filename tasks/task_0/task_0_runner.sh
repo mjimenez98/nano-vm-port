@@ -9,13 +9,13 @@ testRunner() {
 
         if [ $i -eq 1 ]
         then
-            ../cmake-build-debug/./nano_vm_port task_0/$filename > task_0/output.txt
+            ../../cmake-build-debug/./nano_vm_port ../../tests/$filename > output.txt
         else
-            ../cmake-build-debug/./nano_vm_port task_0/$filename >> task_0/output.txt
+            ../../cmake-build-debug/./nano_vm_port ../../tests/$filename >> output.txt
         fi
     done
 
-    ./aunit task_0/output.txt
+    ./aunit output.txt
 }
 
 testRunner
