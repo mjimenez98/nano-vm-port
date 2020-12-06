@@ -58,7 +58,8 @@ You should now be able to see the output in your terminal
 2. Run `ls /dev/tty.*` to know what port your chip is connected to. Copy this value
 3. In your editor, go to `tasks/task_5/task_5_runner.sh` and replace `/dev/tty.*` with the port value you just copied
 4. Repeat step 3 but in the file `tasks/task_5/SerialLoader.cs` for the value in variable `_serialPort.PortName` (line 120)
-5. Back to the terminal, install _mono_ using Homebrew by running `brew install mono`
+5. Back to the terminal, install _mono_ using Homebrew by running `brew install mono` if you have not already
 6. Run `cd tasks/task_5`
-7. Compile the serial loader (~~with the `LoadFromFile` flag~~) by doing (~~`mcs -d:LoadFromFile SerialLoader.cs`~~) `mcs SerialLoader.cs`
-8. Execute the binary file by doing `mono SerialLoader.exe`
+7. Compile task 5 on the target by running `bash task_5_runner.sh`
+8. Compile the serial loader by doing `mcs -d:LoadFromFile SerialLoader.cs`
+9. Execute the binary file by doing `mono SerialLoader.exe <test-path>` (e.g. `mono SerialLoader.exe ../../tests/T01.exe`)
