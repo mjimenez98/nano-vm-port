@@ -1,6 +1,11 @@
 #include "bsl_interman.h"
 
-bool GetStatusReg() {
+#ifdef onTarget
 
-    return true;
+#include <avr/io.h>
+
+bool GetStatusReg() {
+    return SREG;
 }
+
+#endif
