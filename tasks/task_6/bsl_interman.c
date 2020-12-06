@@ -2,5 +2,5 @@
 
 bool GetStatusReg() {
 
-    return 1;
+    return true;
 }
