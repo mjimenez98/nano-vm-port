@@ -1,26 +1,22 @@
 #include "hal_Loader.h"
 #include "bsl_Uart.h"
 
-#include "../../src/out.h"
-
 u8 hal_Loader(u8 mem[MemMax]) {
     counter = 0;
 
     while (1) {
-        mem[counter] = readInstruction();
+        // Read character from UART
+        char input = readInstruction();
 
-        VMOut_PutC(readInstruction());
-        VMOut_PutN();
+        // Save it in mem
+        mem[counter] = (u8) input;
 
-        if (mem[counter] == 0)
-            break;
-//        if (counter == 35)
-//            return 0xFF;    // Full memory TODO: replace for correct opcode
-//
-        if (counter == MemMax)
-            break;
-
+        // Increase counter
         counter += 1;
+
+        // Break
+        if (counter == MemMax || input == '\0')
+            break;
     }
 
     return 0x40;    // Success

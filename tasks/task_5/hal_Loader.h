@@ -5,7 +5,7 @@
 
 #define MemMax 36
 
-int counter;
+u32 counter;
 
 u8 hal_Loader(u8 mem[MemMax]);
 

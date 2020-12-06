@@ -21,7 +21,7 @@ static void CopyrightNotice() {
 }
 
 // Print 1 using "pre-configured and loaded" opcode
-u8 mem[] = { 0x91, 0xFF, 0x82, 0x87, 0x00 };
+u8 mem[] = { 0x91, 0xFF, 0x82, 0x00 };
 
 int main(int argc, char* argv[]) {
     Hal_Init();

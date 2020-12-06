@@ -3,6 +3,7 @@
 #ifdef onTarget
 
 #include <avr/io.h>
+#include <avr/interrupt.h>
 
 void Interrupt_Disable(void) {
     cli();
@@ -27,13 +28,15 @@ void Interrupt_Enable(void) {
 }
 
 u16 Interrupt_SaveAndDisable(void) {
+    u16 ram = SRAM;
+    Interrupt_Disable();
 
-
-    return 1;
+    return ram;
 }
 
 void Interrupt_Restore(u16 flags) {
-
+    SRAM = flags
+    Interrupt_Enable();
 }
 
 /*
