@@ -4,9 +4,9 @@
 //
 */
 
-#ifdef onTarget
+#ifdef OnNano
 
-#include "../../src/hal.h"// Hal_Init()
+#include "../../src/HAL/hal.h"// Hal_Init()
 #include "bsl_IOReg.h"
 #include <avr/io.h>
 #include <util/delay.h>

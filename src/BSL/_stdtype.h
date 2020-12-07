@@ -21,7 +21,7 @@ typedef uint32_t  u32;
 typedef float     f32;
 typedef uint64_t  u64;
 
-#ifdef onTarget
+#ifdef OnNano
 typedef int32_t   i32;
 #else
 typedef int64_t   i32;

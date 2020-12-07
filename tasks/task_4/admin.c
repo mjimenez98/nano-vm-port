@@ -1,5 +1,5 @@
-#include "../../src/hal.h"
-#include "../../src/out.h"
+#include "../../src/HAL/hal.h"
+#include "../../src/HAL/out.h"
 #include "../../src/vm.h"
 
 #define Target      "(ATMega328P)"
@@ -21,7 +21,7 @@ static void CopyrightNotice() {
 }
 
 // Print 1 using "pre-configured and loaded" opcode
-u8 mem[] = { 0x91, 0xFF, 0x82, 0x87, 0x00 };
+u8 mem[] = { 0x91, 0xFF, 0x82, 0x00 };
 
 int main(int argc, char* argv[]) {
     Hal_Init();

@@ -1,6 +1,6 @@
 #include "bsl_Uart.h"
 
-#ifdef onTarget
+#ifdef OnNano
 
 #include <avr/io.h>
 

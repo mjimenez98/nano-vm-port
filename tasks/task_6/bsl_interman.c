@@ -1,6 +1,11 @@
 #include "bsl_interman.h"
 
-bool GetStatusReg() {
+#ifdef OnNano
 
-    return true;
+#include <avr/io.h>
+
+bool GetStatusReg() {
+    return SREG;
 }
+
+#endif
