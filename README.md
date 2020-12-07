@@ -14,13 +14,26 @@ strings from the target
 
 ## Running Tasks
 
-### Tasks 0-1
+### Task 0
 
 1. Open your terminal in `~/nano-vm-port`
 2. Run `cd tasks/task_0/`
-3. Run `bash task_0_runner.sh`
+3. Run `bash task_0_runner.sh compile` to compile `aunit.c` and run the tests using this executable. In the future,
+now that you have compiled `aunit.c`, you can do `bash task_0_runner.sh` to only run the tests
 
 Now in your project structure you can go to `tests/task_0/output.txt` to find the output for all task 0 tests.
+
+## Task 1
+
+2. Open your terminal in `~/nano-vm-port`
+3. Run `cd tasks/task_1/`
+4. Run `bash task_1_runner.sh`
+
+You should now be able to see the output in your terminal.
+
+## Task 2
+
+See `src/BSL/` and `src/HAL/` for the separation.
 
 ### Task 3
 
@@ -35,7 +48,7 @@ For this we will use two tabs in the terminal.
 7. Run `screen portName` where `portName` is the port being used by your chip. It should still be in your clipboard. 
 This will allow us to see the serial monitor
 
-You should now be able to see the output in your terminal
+You should now be able to see the output in your terminal.
 
 ### Task 4
 
@@ -50,7 +63,7 @@ For this we will use two tabs in the terminal.
 7. Run `screen portName` where `portName` is the port being used by your chip. It should still be in your clipboard. 
 This will allow us to see the serial monitor
 
-You should now be able to see the output in your terminal
+You should now be able to see the output in your terminal.
 
 ## Task 5
 
@@ -77,7 +90,7 @@ For this we will use two tabs in the terminal.
 7. Run `screen portName` where `portName` is the port being used by your chip. It should still be in your clipboard. 
 This will allow us to see the serial monitor
 
-You should now be able to see the output in your terminal
+You should now be able to see the output in your terminal.
 
 ## Task 7
 
@@ -89,4 +102,4 @@ For this we will use two tabs in the terminal.
 4. Back to your terminal, run `cd tasks/task_7`
 5. Compile task 7 on the target by running `bash task_6_runner.sh`
 
-You should now be able to see your onboard LED blinking
+You should now be able to see your onboard LED blinking.

@@ -118,7 +118,7 @@ int main(int argc, char** argv) {
             printf("%c", status);
         } else {
             printf("\nTest #%d  should start with \"Test ...\" (see file 'runTests.txt' for details)\n", testNumber+1);
-            return 0;
+            return -1;
         }
         ++testNumber;
     }
@@ -138,5 +138,4 @@ int main(int argc, char** argv) {
         }
     }
     fclose(file);
-
 }
