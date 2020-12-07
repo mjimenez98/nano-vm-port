@@ -14,21 +14,21 @@ if (DebugXtoa)
 endif()
 
 add_executable(nano_vm_port
-        src/_console.c
-        src/_cout.c
-        src/_out.h
-        src/_outdesc.h
-        src/_stdtype.h
-        src/_xtoa.c
-        src/_xtoa.h
+        src/BSL/_console.c
+        src/BSL/_cout.c
+        src/BSL/_out.h
+        src/BSL/_outdesc.h
+        src/BSL/_stdtype.h
+        src/BSL/_xtoa.c
+        src/BSL/_xtoa.h
         src/admin.c
-        src/hal.c
-        src/hal.h
+        src/HAL/hal.c
+        src/HAL/hal.h
         src/ioreg.c
         src/ioreg.h
         src/opcode.h
-        src/out.c
-        src/out.h
+        src/HAL/out.c
+        src/HAL/out.h
         src/vm.c
         src/vm.h
         src/vmstack.c

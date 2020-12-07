@@ -1,6 +1,6 @@
 #include "bsl_IOReg.h"
 
-#ifdef onTarget
+#ifdef OnNano
 #include <avr/io.h>
 
 u32 bsl_IOReg_Read (u32 ioreg) {
