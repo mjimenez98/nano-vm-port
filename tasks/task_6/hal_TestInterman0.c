@@ -4,9 +4,9 @@
 //
 */
 
-#include "../../src/hal.h"      // Hal_Init()
+#include "../../src/HAL/hal.h"      // Hal_Init()
 #include "../../src/vm.h"  // All VMOut_Put*
-#include "../../src/out.h"
+#include "../../src/HAL/out.h"
 
 #include "bsl_interman.h"
 #include "hal_interman.h"

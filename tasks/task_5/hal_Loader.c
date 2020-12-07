@@ -1,7 +1,7 @@
 #include "hal_Loader.h"
 #include "bsl_Uart.h"
 
-#include "../../src/out.h"
+#include "../../src/HAL/out.h"
 
 u8 hal_Loader(u8 mem[MemMax]) {
     counter = 0;
