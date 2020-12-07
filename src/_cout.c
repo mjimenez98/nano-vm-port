@@ -21,7 +21,7 @@ static void COut_PutN(void)          { printf("\n"); }
 
 static char  buf[12];                /* to cover max size (12) "i32" (10+sign+null) */
 
-#ifdef onTarget
+#ifdef OnNano
 
 #include <avr/io.h>
 
@@ -83,7 +83,7 @@ IOut Out_GetFactory(const char* whichOne) {
     if (!init) {      // To make sure it will be done only once.
         whichOne = 0; // To avoid the warning on the unreferenced formal parameter.
 
-        #ifdef onTarget
+        #ifdef OnNano
         COut_Init();
         #endif
 

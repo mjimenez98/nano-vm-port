@@ -1,6 +1,6 @@
 #include "hal_interman.h"
 
-#ifdef onTarget
+#ifdef OnNano
 
 #include <avr/io.h>
 #include <avr/interrupt.h>
@@ -14,18 +14,14 @@ void Interrupt_Enable(void) {
 }
 
 u16 Interrupt_SaveAndDisable(void) {
-    u16 ram = (*(u16 *) 0x100);
-//    u16 ram = SRAM;
-
+    u16 saveStatus = SREG;
     Interrupt_Disable();
 
-    return ram;
+    return saveStatus;
 }
 
 void Interrupt_Restore(u16 flags) {
-    (*(u16 *) (0x100) = flags);
-//    SRAM = flags;
-    Interrupt_Enable();
+    SREG = flags;
 }
 
 /*

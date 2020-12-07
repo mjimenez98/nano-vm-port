@@ -1,6 +1,6 @@
 #include "bsl_interman.h"
 
-#ifdef onTarget
+#ifdef OnNano
 
 #include <avr/io.h>
 

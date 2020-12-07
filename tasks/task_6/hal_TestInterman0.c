@@ -73,34 +73,34 @@ int main(void ) {
 
     VMOut_PutS("I");
     VMOut_PutS( (GetStatusReg() & InterruptBit) ? Enabled : Disabled);
-//
-//
-//    // Test a sequence of SDI/RI when all interrupts are enabled on entry:
-//    VMOut_PutS(" | ");
-//
-//    VMOut_PutS("<EI>");
-//    Interrupt_Enable();
-//
-//    VMOut_PutS("I");
-//    VMOut_PutS( (GetStatusReg() & InterruptBit) ? Enabled : Disabled);
-//
-//    VMOut_PutS("<SDI>");
-//    saveStatus = Interrupt_SaveAndDisable();
-//
-//    VMOut_PutS("SI");
-//    VMOut_PutS( (saveStatus & InterruptBit) ? Enabled : Disabled);
-//    VMOut_PutS("I");
-//    VMOut_PutS( (GetStatusReg() & InterruptBit) ? Enabled : Disabled);
-//
-//    VMOut_PutS("<RI>");
-//    Interrupt_Restore(saveStatus);
-//
-//    VMOut_PutS("I");
-//    VMOut_PutS( (GetStatusReg() & InterruptBit) ? Enabled : Disabled);
-//
-//    VMOut_PutS(" | ");
-//    VMOut_PutS("OnExit: ");
-//    VMOut_PutS( (GetStatusReg() & InterruptBit) ? Enabled : Disabled);
+
+
+    // Test a sequence of SDI/RI when all interrupts are enabled on entry:
+    VMOut_PutS(" | ");
+
+    VMOut_PutS("<EI>");
+    Interrupt_Enable();
+
+    VMOut_PutS("I");
+    VMOut_PutS( (GetStatusReg() & InterruptBit) ? Enabled : Disabled);
+
+    VMOut_PutS("<SDI>");
+    saveStatus = Interrupt_SaveAndDisable();
+
+    VMOut_PutS("SI");
+    VMOut_PutS( (saveStatus & InterruptBit) ? Enabled : Disabled);
+    VMOut_PutS("I");
+    VMOut_PutS( (GetStatusReg() & InterruptBit) ? Enabled : Disabled);
+
+    VMOut_PutS("<RI>");
+    Interrupt_Restore(saveStatus);
+
+    VMOut_PutS("I");
+    VMOut_PutS( (GetStatusReg() & InterruptBit) ? Enabled : Disabled);
+
+    VMOut_PutS(" | ");
+    VMOut_PutS("OnExit: ");
+    VMOut_PutS( (GetStatusReg() & InterruptBit) ? Enabled : Disabled);
     VMOut_PutN();
 
     while(1) { }

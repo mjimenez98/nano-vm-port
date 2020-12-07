@@ -5,8 +5,8 @@ set(CMAKE_C_STANDARD 11)
 
 include_directories(src)
 
-if (onTarget)
-    add_definitions(-DonTarget=0)
+if (OnNano)
+    add_definitions(-DOnNano=0)
 endif()
 
 if (DebugXtoa)

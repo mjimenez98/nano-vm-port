@@ -4,7 +4,7 @@
 //
 */
 
-#ifdef onTarget
+#ifdef OnNano
 
 #include "hal.h"       // Hal_Init()
 #include "bsl_IOReg111.h"
