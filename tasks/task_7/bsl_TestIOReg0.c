@@ -6,9 +6,8 @@
 
 #ifdef OnNano
 
-#include "hal.h"       // Hal_Init()
-#include "bsl_IOReg111.h"
-
+#include "../../src/hal.h"// Hal_Init()
+#include "bsl_IOReg.h"
 #include <avr/io.h>
 #include <util/delay.h>
 
@@ -18,12 +17,10 @@
 #define PortBData 0x25L
 
 int main(void ) {
-    hal_Init();
+    Hal_Init();
 
     // Set onboard LED for output.
-    // DDRB |= (1 << PB5);
     bsl_IOReg_Write(PortBDir, bsl_IOReg_Read(PortBDir) | (u32)((u16)(1 << 5)) );
-
 
     while(1) {
         // Turn the LED on.
