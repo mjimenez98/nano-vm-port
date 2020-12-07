@@ -4,6 +4,8 @@
 //
 */
 
+#ifdef OnNano
+
 #include "../../src/HAL/hal.h"
 #include "../../src/HAL/out.h"
 #include "../../src/vm.h"
@@ -30,3 +32,5 @@ int main(void) {
     VMOut_PutS("]\n");
     return 0;
 }
+
+#endif

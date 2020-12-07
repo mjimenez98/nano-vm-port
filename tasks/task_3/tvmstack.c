@@ -4,15 +4,11 @@
 //
 */
 
-//#include "../../src/HAL/hal.h"     // hal_Init()
-//#include "../../src/BSL/_cout.c" // All VMOut_Put*
-//#include "../../src/vmstack.h"
+#ifdef OnNano
 
 #include "../../src/HAL/hal.h"
 #include "../../src/HAL/out.h"
 #include "../../src/vm.h"
-
-#ifdef OnNano
 
 #define Thread_StackCapacity 32
 
