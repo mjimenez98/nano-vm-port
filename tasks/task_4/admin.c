@@ -1,5 +1,5 @@
-#include "../../src/hal.h"
-#include "../../src/out.h"
+#include "../../src/HAL/hal.h"
+#include "../../src/HAL/out.h"
 #include "../../src/vm.h"
 
 #define Target      "(ATMega328P)"

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/migueljimenez/Documents/GitHub Projects/nano-vm-port
+# Install script for directory: /Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

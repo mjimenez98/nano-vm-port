@@ -6,5 +6,5 @@ C_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacO
 
 C_DEFINES = 
 
-C_INCLUDES = -I"/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src" 
+C_INCLUDES = -I"/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src" 
 

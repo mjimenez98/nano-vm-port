@@ -4,12 +4,12 @@
 //
 */
 
-#include "../../src/_stdtype.h"
+#include "../../src/BSL/_stdtype.h"
 
-#include "../../src/hal.h"
+#include "../../src/HAL/hal.h"
 #include "hal_Loader.h"
 
-#include "../../src/out.h"
+#include "../../src/HAL/out.h"
 #include "../../src/vm.h"
 
 #define Target      "(ATMega328P)"

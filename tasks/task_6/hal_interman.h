@@ -1,7 +1,7 @@
 #ifndef NANO_VM_PORT_HAL_INTERMAN_H
 #define NANO_VM_PORT_HAL_INTERMAN_H
 
-#include "../../src/_stdtype.h"
+#include "../../src/BSL/_stdtype.h"
 
 void Interrupt_Disable(void);
 void Interrupt_Enable(void);

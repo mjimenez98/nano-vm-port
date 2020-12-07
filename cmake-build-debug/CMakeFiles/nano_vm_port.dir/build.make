@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port"
+CMAKE_SOURCE_DIR = "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/nano_vm_port.dir/depend.make
@@ -79,120 +79,120 @@ include CMakeFiles/nano_vm_port.dir/flags.make
 
 CMakeFiles/nano_vm_port.dir/src/_console.c.o: CMakeFiles/nano_vm_port.dir/flags.make
 CMakeFiles/nano_vm_port.dir/src/_console.c.o: ../src/_console.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/nano_vm_port.dir/src/_console.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nano_vm_port.dir/src/_console.c.o   -c "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src/_console.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/nano_vm_port.dir/src/_console.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nano_vm_port.dir/src/_console.c.o   -c "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src/_console.c"
 
 CMakeFiles/nano_vm_port.dir/src/_console.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nano_vm_port.dir/src/_console.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src/_console.c" > CMakeFiles/nano_vm_port.dir/src/_console.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src/_console.c" > CMakeFiles/nano_vm_port.dir/src/_console.c.i
 
 CMakeFiles/nano_vm_port.dir/src/_console.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nano_vm_port.dir/src/_console.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src/_console.c" -o CMakeFiles/nano_vm_port.dir/src/_console.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src/_console.c" -o CMakeFiles/nano_vm_port.dir/src/_console.c.s
 
 CMakeFiles/nano_vm_port.dir/src/_cout.c.o: CMakeFiles/nano_vm_port.dir/flags.make
 CMakeFiles/nano_vm_port.dir/src/_cout.c.o: ../src/_cout.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/nano_vm_port.dir/src/_cout.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nano_vm_port.dir/src/_cout.c.o   -c "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src/_cout.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/nano_vm_port.dir/src/_cout.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nano_vm_port.dir/src/_cout.c.o   -c "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src/_cout.c"
 
 CMakeFiles/nano_vm_port.dir/src/_cout.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nano_vm_port.dir/src/_cout.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src/_cout.c" > CMakeFiles/nano_vm_port.dir/src/_cout.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src/_cout.c" > CMakeFiles/nano_vm_port.dir/src/_cout.c.i
 
 CMakeFiles/nano_vm_port.dir/src/_cout.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nano_vm_port.dir/src/_cout.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src/_cout.c" -o CMakeFiles/nano_vm_port.dir/src/_cout.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src/_cout.c" -o CMakeFiles/nano_vm_port.dir/src/_cout.c.s
 
 CMakeFiles/nano_vm_port.dir/src/_xtoa.c.o: CMakeFiles/nano_vm_port.dir/flags.make
 CMakeFiles/nano_vm_port.dir/src/_xtoa.c.o: ../src/_xtoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/nano_vm_port.dir/src/_xtoa.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nano_vm_port.dir/src/_xtoa.c.o   -c "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src/_xtoa.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/nano_vm_port.dir/src/_xtoa.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nano_vm_port.dir/src/_xtoa.c.o   -c "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src/_xtoa.c"
 
 CMakeFiles/nano_vm_port.dir/src/_xtoa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nano_vm_port.dir/src/_xtoa.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src/_xtoa.c" > CMakeFiles/nano_vm_port.dir/src/_xtoa.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src/_xtoa.c" > CMakeFiles/nano_vm_port.dir/src/_xtoa.c.i
 
 CMakeFiles/nano_vm_port.dir/src/_xtoa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nano_vm_port.dir/src/_xtoa.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src/_xtoa.c" -o CMakeFiles/nano_vm_port.dir/src/_xtoa.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src/_xtoa.c" -o CMakeFiles/nano_vm_port.dir/src/_xtoa.c.s
 
 CMakeFiles/nano_vm_port.dir/src/admin.c.o: CMakeFiles/nano_vm_port.dir/flags.make
 CMakeFiles/nano_vm_port.dir/src/admin.c.o: ../src/admin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/nano_vm_port.dir/src/admin.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nano_vm_port.dir/src/admin.c.o   -c "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src/admin.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/nano_vm_port.dir/src/admin.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nano_vm_port.dir/src/admin.c.o   -c "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src/admin.c"
 
 CMakeFiles/nano_vm_port.dir/src/admin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nano_vm_port.dir/src/admin.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src/admin.c" > CMakeFiles/nano_vm_port.dir/src/admin.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src/admin.c" > CMakeFiles/nano_vm_port.dir/src/admin.c.i
 
 CMakeFiles/nano_vm_port.dir/src/admin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nano_vm_port.dir/src/admin.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src/admin.c" -o CMakeFiles/nano_vm_port.dir/src/admin.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src/admin.c" -o CMakeFiles/nano_vm_port.dir/src/admin.c.s
 
 CMakeFiles/nano_vm_port.dir/src/hal.c.o: CMakeFiles/nano_vm_port.dir/flags.make
 CMakeFiles/nano_vm_port.dir/src/hal.c.o: ../src/hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/nano_vm_port.dir/src/hal.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nano_vm_port.dir/src/hal.c.o   -c "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src/hal.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/nano_vm_port.dir/src/hal.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nano_vm_port.dir/src/hal.c.o   -c "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src/hal.c"
 
 CMakeFiles/nano_vm_port.dir/src/hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nano_vm_port.dir/src/hal.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src/hal.c" > CMakeFiles/nano_vm_port.dir/src/hal.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src/hal.c" > CMakeFiles/nano_vm_port.dir/src/hal.c.i
 
 CMakeFiles/nano_vm_port.dir/src/hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nano_vm_port.dir/src/hal.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src/hal.c" -o CMakeFiles/nano_vm_port.dir/src/hal.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src/hal.c" -o CMakeFiles/nano_vm_port.dir/src/hal.c.s
 
 CMakeFiles/nano_vm_port.dir/src/ioreg.c.o: CMakeFiles/nano_vm_port.dir/flags.make
 CMakeFiles/nano_vm_port.dir/src/ioreg.c.o: ../src/ioreg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/nano_vm_port.dir/src/ioreg.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nano_vm_port.dir/src/ioreg.c.o   -c "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src/ioreg.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/nano_vm_port.dir/src/ioreg.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nano_vm_port.dir/src/ioreg.c.o   -c "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src/ioreg.c"
 
 CMakeFiles/nano_vm_port.dir/src/ioreg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nano_vm_port.dir/src/ioreg.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src/ioreg.c" > CMakeFiles/nano_vm_port.dir/src/ioreg.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src/ioreg.c" > CMakeFiles/nano_vm_port.dir/src/ioreg.c.i
 
 CMakeFiles/nano_vm_port.dir/src/ioreg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nano_vm_port.dir/src/ioreg.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src/ioreg.c" -o CMakeFiles/nano_vm_port.dir/src/ioreg.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src/ioreg.c" -o CMakeFiles/nano_vm_port.dir/src/ioreg.c.s
 
 CMakeFiles/nano_vm_port.dir/src/out.c.o: CMakeFiles/nano_vm_port.dir/flags.make
 CMakeFiles/nano_vm_port.dir/src/out.c.o: ../src/out.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/nano_vm_port.dir/src/out.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nano_vm_port.dir/src/out.c.o   -c "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src/out.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/nano_vm_port.dir/src/out.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nano_vm_port.dir/src/out.c.o   -c "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src/out.c"
 
 CMakeFiles/nano_vm_port.dir/src/out.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nano_vm_port.dir/src/out.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src/out.c" > CMakeFiles/nano_vm_port.dir/src/out.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src/out.c" > CMakeFiles/nano_vm_port.dir/src/out.c.i
 
 CMakeFiles/nano_vm_port.dir/src/out.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nano_vm_port.dir/src/out.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src/out.c" -o CMakeFiles/nano_vm_port.dir/src/out.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src/out.c" -o CMakeFiles/nano_vm_port.dir/src/out.c.s
 
 CMakeFiles/nano_vm_port.dir/src/vm.c.o: CMakeFiles/nano_vm_port.dir/flags.make
 CMakeFiles/nano_vm_port.dir/src/vm.c.o: ../src/vm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/nano_vm_port.dir/src/vm.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nano_vm_port.dir/src/vm.c.o   -c "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src/vm.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/nano_vm_port.dir/src/vm.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nano_vm_port.dir/src/vm.c.o   -c "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src/vm.c"
 
 CMakeFiles/nano_vm_port.dir/src/vm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nano_vm_port.dir/src/vm.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src/vm.c" > CMakeFiles/nano_vm_port.dir/src/vm.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src/vm.c" > CMakeFiles/nano_vm_port.dir/src/vm.c.i
 
 CMakeFiles/nano_vm_port.dir/src/vm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nano_vm_port.dir/src/vm.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src/vm.c" -o CMakeFiles/nano_vm_port.dir/src/vm.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src/vm.c" -o CMakeFiles/nano_vm_port.dir/src/vm.c.s
 
 CMakeFiles/nano_vm_port.dir/src/vmstack.c.o: CMakeFiles/nano_vm_port.dir/flags.make
 CMakeFiles/nano_vm_port.dir/src/vmstack.c.o: ../src/vmstack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/nano_vm_port.dir/src/vmstack.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nano_vm_port.dir/src/vmstack.c.o   -c "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src/vmstack.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/nano_vm_port.dir/src/vmstack.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nano_vm_port.dir/src/vmstack.c.o   -c "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src/vmstack.c"
 
 CMakeFiles/nano_vm_port.dir/src/vmstack.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nano_vm_port.dir/src/vmstack.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src/vmstack.c" > CMakeFiles/nano_vm_port.dir/src/vmstack.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src/vmstack.c" > CMakeFiles/nano_vm_port.dir/src/vmstack.c.i
 
 CMakeFiles/nano_vm_port.dir/src/vmstack.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nano_vm_port.dir/src/vmstack.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/src/vmstack.c" -o CMakeFiles/nano_vm_port.dir/src/vmstack.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/src/vmstack.c" -o CMakeFiles/nano_vm_port.dir/src/vmstack.c.s
 
 # Object files for target nano_vm_port
 nano_vm_port_OBJECTS = \
@@ -220,7 +220,7 @@ nano_vm_port: CMakeFiles/nano_vm_port.dir/src/vm.c.o
 nano_vm_port: CMakeFiles/nano_vm_port.dir/src/vmstack.c.o
 nano_vm_port: CMakeFiles/nano_vm_port.dir/build.make
 nano_vm_port: CMakeFiles/nano_vm_port.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable nano_vm_port"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable nano_vm_port"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nano_vm_port.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -233,6 +233,6 @@ CMakeFiles/nano_vm_port.dir/clean:
 .PHONY : CMakeFiles/nano_vm_port.dir/clean
 
 CMakeFiles/nano_vm_port.dir/depend:
-	cd "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port" "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port" "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/cmake-build-debug" "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/cmake-build-debug" "/Users/migueljimenez/Documents/GitHub Projects/nano-vm-port/cmake-build-debug/CMakeFiles/nano_vm_port.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port" "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port" "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/cmake-build-debug" "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/cmake-build-debug" "/Users/mohd/MEGA/1.Current Mega Folder/Concordia/Concordia Fall 2020/SOEN 422/nano-vm-port/cmake-build-debug/CMakeFiles/nano_vm_port.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/nano_vm_port.dir/depend
 
