@@ -2,6 +2,12 @@
 
 ## Setup
 
+### Prerequisites
+- gcc
+- avr-gcc
+- avr-dude
+
+### IDE
 For CLion:
 1. Open or import nano_vm_port project
 2. Do `Run` > `Edit Configurations...`
