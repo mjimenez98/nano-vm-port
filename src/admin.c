@@ -9,8 +9,8 @@
 #include <stdio.h>  /* for FILE   */
 #include <string.h> /* for strtok */
 
-#include "hal.h"
-#include "out.h"
+#include "./HAL/hal.h"
+#include "./HAL/out.h"
 #include "vm.h"
 
 #ifdef Dos16
