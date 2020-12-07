@@ -1,5 +1,14 @@
 # nano-vm-port
 
+## Team Information
+
+### Team #1
+
+- Miguel Jimenez - 40022302
+- Mehdi Skouri-Saidi - 40057700
+- Mohd Tanvir - 40014010
+- Justin Weller - 40026870
+
 ## Setup
 
 ### Prerequisites
