@@ -1,5 +1,14 @@
 # nano-vm-port
 
+## Team Information
+
+### Team #1
+
+- Miguel Jimenez - 40022302
+- Mehdi Skouri-Saidi - 40057700
+- Mohd Tanvir - 40014010
+- Justin Weller - 40026870
+
 ## Setup
 
 ### Prerequisites
@@ -29,7 +38,7 @@ now that you have compiled `aunit.c`, you can do `bash task_0_runner.sh` to only
 
 Now in your project structure you can go to `tests/task_0/output.txt` to find the output for all task 0 tests.
 
-## Task 1
+### Task 1
 
 2. Open your terminal in `~/nano-vm-port`
 3. Run `cd tasks/task_1/`
@@ -37,7 +46,7 @@ Now in your project structure you can go to `tests/task_0/output.txt` to find th
 
 You should now be able to see the output in your terminal.
 
-## Task 2
+### Task 2
 
 See `src/BSL/` and `src/HAL/` for the separation.
 
@@ -71,7 +80,7 @@ This will allow us to see the serial monitor
 
 You should now be able to see the output in your terminal.
 
-## Task 5
+### Task 5
 
 1. Open your terminal in `~/nano-vm-port`
 2. Run `ls /dev/tty.*` to know what port your chip is connected to. Copy this value
@@ -83,7 +92,7 @@ You should now be able to see the output in your terminal.
 8. Compile the serial loader by doing `mcs -d:LoadFromFile SerialLoader.cs`
 9. Execute the binary file by doing `mono SerialLoader.exe <test-path>` (e.g. `mono SerialLoader.exe ../../tests/ST03.exe`)
 
-## Task 6
+### Task 6
 
 For this we will use two tabs in the terminal.
 
@@ -98,7 +107,7 @@ This will allow us to see the serial monitor
 
 You should now be able to see the output in your terminal.
 
-## Task 7
+### Task 7
 
 For this we will use two tabs in the terminal.
 
