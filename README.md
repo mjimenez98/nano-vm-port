@@ -58,10 +58,15 @@ For this we will use two tabs in the terminal.
 2. Run `ls /dev/tty.*` to know what port your chip is connected to. Copy this value
 3. In your editor, go to `tasks/task_3/task_3_runner.sh` and replace `/dev/tty.*` with the port value you just copied
 4. Back to your terminal, run `cd tasks/task_3`
-5. Compile task 3 on the target by running `bash task_3_runner.sh`
+5. For test 1, compile task 3 on the target by running `bash task_3_runner_1.sh`
 6. Open a second tab in your terminal
 7. Run `screen portName` where `portName` is the port being used by your chip. It should still be in your clipboard. 
 This will allow us to see the serial monitor
+
+You should now be able to see the output in your terminal.
+
+8. For test 2, compile task 3 on the target by running `bash task_3_runner_2.sh` in your first terminal tab
+9. In your second tab, run `screen portName` where `portName` is the port being used by your chip. It should still be in your clipboard. 
 
 You should now be able to see the output in your terminal.
 

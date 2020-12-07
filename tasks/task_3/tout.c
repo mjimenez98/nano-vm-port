@@ -8,7 +8,6 @@
 
 #include "../../src/HAL/hal.h"
 #include "../../src/HAL/out.h"
-#include "../../src/vm.h"
 
 int main(void) {
     Hal_Init();

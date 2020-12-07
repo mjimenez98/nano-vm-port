@@ -8,7 +8,7 @@
 
 #include "../../src/HAL/hal.h"
 #include "../../src/HAL/out.h"
-#include "../../src/vm.h"
+#include "../../src/vmstack.h"
 
 #define Thread_StackCapacity 32
 

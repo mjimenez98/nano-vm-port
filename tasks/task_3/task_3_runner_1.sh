@@ -1,4 +1,4 @@
-avr-gcc -Os -Wall -DF_CPU=16000000UL -mmcu=atmega328p -DOnNano tvmstack.c ../../src/HAL/hal.h ../../src/HAL/out.h ../../src/vm.h -o tvmstack.o
+avr-gcc -Os -Wall -DF_CPU=16000000UL -mmcu=atmega328p -DOnNano tvmstack.c ../../src/HAL/hal.c ../../src/HAL/out.c ../../src/vm.c ../../src/vmstack.c ../../src/BSL/_cout.c ../../src/BSL/_xtoa.c -o tvmstack.o
 
 avr-objcopy -O ihex -j .text -j .data tvmstack.o  tvmstack.hex
 
