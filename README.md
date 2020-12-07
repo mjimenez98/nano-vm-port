@@ -2,7 +2,7 @@
 
 ## Team Information
 
-### Team #1
+### Team #3
 
 - Miguel Jimenez - 40022302
 - Mehdi Skouri-Saidi - 40057700
